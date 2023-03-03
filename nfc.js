@@ -13,7 +13,7 @@ async function readTag() {
             
             
 
-            if (decoder.decode(record.data) === "https://www.apple.com/") {
+            if (decoder.decode(record.data) === "https://Apple.com") {
                 if(count < 6){
                 const circle = document.querySelectorAll(".circle"); // 
                 circle[count].style.backgroundColor = "yellow";
